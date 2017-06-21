@@ -1576,7 +1576,7 @@ h4, .h4 {
 }
 
 h5, .h5 {
-  font-size: 14px;
+  /*font-size: 14px;*/
 }
 
 h6, .h6 {
@@ -8351,7 +8351,9 @@ a > img.fh5co-align-center {
 
 }
 .logo{
-  width:328px;
+    max-width: 100%;
+    height: auto;
+    width: auto;
 
 }
 .top-logo{
@@ -8362,34 +8364,49 @@ a > img.fh5co-align-center {
 }
 .right {
     float: right;
-    width:430px;
+    /*width:430px;*/
+    width:40%;
     padding-top: 10px;
     border-top: 1px solid #0b0b0b;
     padding-left: 10px;
+    overflow: auto;
 }
 .left {
     float: left;
+    width:60%;
     padding-top: 10px;
     border-top: 1px solid #0b0b0b;
+    overflow: auto;
 }
 .center {
-    width: 1200px;
+    /*width: 1200px;*/
+    width:100%;
     margin: 0 auto;
 }
 .detail-img{
-    width:770px;
+    /*width:770px;*/
+    max-width: 100%;
+    height: auto;
+    width: auto;
     margin-bottom: 10px;
+    overflow: auto;
 }
 .detail-img-1{
-  width:380px;
-  float: left;
-  margin-bottom: 10px;
-  margin-right: 10px;
+  /*width:380px;*/
+    max-width: 100%;
+    height: auto;
+    width: auto;
+    float: left;
+    margin-bottom: 10px;
+    margin-right: 10px;
 }
 .detail-img-2{
-  width:380px;
-  float: left;
-  margin-bottom: 10px;
+  /*width:380px;*/
+    max-width: 100%;
+    height: auto;
+    width: auto;
+    float: left;
+    margin-bottom: 10px;
 }
 .a.fh5co-menu-btn.js-fh5co-menu-btn{
 
@@ -8398,7 +8415,7 @@ a > img.fh5co-align-center {
   padding-top: 100px;
 }
 #product-show .product-name, #product-show .product-name-en {
-  font-size: 20px;
+  /*font-size: 20px;*/
   color: #0b0b0b;
   font-weight: bold;
   line-height: 20px;
@@ -8407,7 +8424,7 @@ a > img.fh5co-align-center {
 }
 .product-name-en{
   font-family: "Montserrat", arial, sans-serif;
-  font-size: 23px;
+  /*font-size: 23px;*/
   color: #0b0b0b;
   font-weight: bold;
   line-height: 20px;
@@ -8415,7 +8432,7 @@ a > img.fh5co-align-center {
   margin-top:3px;
 }
 .product-name{
-  font-size: 20px;
+  /*font-size: 20px;*/
   color: #0b0b0b;
   font-weight: bold;
   line-height: 20px;
@@ -8433,7 +8450,7 @@ a > img.fh5co-align-center {
 }
 #showPrice {
   color: #004C46;
-  font-size: 20px;
+  /*font-size: 20px;*/
   margin-bottom: 5px;
 }
 .price-label span {
@@ -8459,7 +8476,7 @@ a > img.fh5co-align-center {
   height: 35px;
 }
 .detail-headline{
-  font-size: 13px;
+  /*font-size: 13px;*/
   font-weight: lighter;
   font-family: "Times New Roman", "Microsoft YaHei", Times, serif, simhei;
   color: #212121;
@@ -8485,4 +8502,23 @@ a > img.fh5co-align-center {
 .image-index-dark:hover{
   opacity: .8;
 }
+@media all and (min-width: 50px)   {  body  { font-size:0.1em;  } }
+@media all and (min-width: 100px)  {  body  { font-size:0.2em;  } }
+@media all and (min-width: 200px)  {  body  { font-size:0.4em;  } }
+@media all and (min-width: 300px)  {  body  { font-size:0.6em;  } }
+@media all and (min-width: 400px)  {  body  { font-size:0.8em;  } }
+@media all and (min-width: 500px)  {  body  { font-size:1.0em;  } }
+@media all and (min-width: 600px)  {  body  { font-size:1.2em;  } }
+@media all and (min-width: 700px)  {  body  { font-size:1.4em;  } }
+@media all and (min-width: 800px)  {  body  { font-size:1.6em;  } }
+@media all and (min-width: 900px)  {  body  { font-size:1.8em;  } }
+@media all and (min-width: 1000px) {  body  { font-size:2.0em;  } }
+@media all and (min-width: 1100px) {  body  { font-size:2.0em;  } }
+@media all and (min-width: 1200px) {  body  { font-size:2.0em;  } }
+@media all and (min-width: 1300px) {  body  { font-size:2.0em;  } }
+@media all and (min-width: 1400px) {  body  { font-size:2.0em;  } }
+@media all and (min-width: 1500px) {  body  { font-size:2.0em;  } }
+@media all and (min-width: 1500px) {  body  { font-size:2.0em;  } }
+@media all and (min-width: 1600px) {  body  { font-size:2.0em;  } }
+@media all and (min-width: 1700px) {  body  { font-size:2.0em;  } }
 /*# sourceMappingURL=style.css.map */
