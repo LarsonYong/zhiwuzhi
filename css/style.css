@@ -7723,7 +7723,9 @@ h1, h2, h3, h4, h5, h6 {
 #fh5co-board .item .image-popup:hover img {
   opacity: .5;
 }
-
+.image-popup-dark:hover{
+  opacity: .8;
+}
 .js .animate-box {
   opacity: 0;
 }
@@ -8350,7 +8352,7 @@ a > img.fh5co-align-center {
 }
 .logo{
   width:328px;
-  border-bottom: 1px solid #0b0b0b;
+
 }
 .top-logo{
   width:290px;
@@ -8360,7 +8362,7 @@ a > img.fh5co-align-center {
 }
 .right {
     float: right;
-    width:330px;
+    width:430px;
     padding-top: 10px;
     border-top: 1px solid #0b0b0b;
     padding-left: 10px;
@@ -8371,11 +8373,23 @@ a > img.fh5co-align-center {
     border-top: 1px solid #0b0b0b;
 }
 .center {
-    width: 1000px;
+    width: 1200px;
     margin: 0 auto;
 }
 .detail-img{
-    width:670px;
+    width:770px;
+    margin-bottom: 10px;
+}
+.detail-img-1{
+  width:380px;
+  float: left;
+  margin-bottom: 10px;
+  margin-right: 10px;
+}
+.detail-img-2{
+  width:380px;
+  float: left;
+  margin-bottom: 10px;
 }
 .a.fh5co-menu-btn.js-fh5co-menu-btn{
 
@@ -8465,7 +8479,10 @@ a > img.fh5co-align-center {
 .product-name-detail{
   font-size: 14px;
 }
-.detail-img{
-  margin-bottom: 10px;
+.image-index:hover{
+  opacity: .6;
+}
+.image-index-dark:hover{
+  opacity: .8;
 }
 /*# sourceMappingURL=style.css.map */
