@@ -8427,30 +8427,30 @@ a > img.fh5co-align-center {
   /*font-size: 20px;*/
   color: #0b0b0b;
   font-weight: bold;
-  line-height: 20px;
-  margin-bottom: 5px;
-  margin-top:3px;
+  line-height: 200%;
+  margin-bottom: 2%;
+  margin-top:2%;
 }
 .product-name-en{
   font-family: "Montserrat", arial, sans-serif;
   /*font-size: 23px;*/
   color: #0b0b0b;
   font-weight: bold;
-  line-height: 20px;
-  margin-bottom: 5px;
-  margin-top:3px;
+  line-height: 20%;
+  margin-bottom: 1%;
+  margin-top:1.5%;
 }
 .product-name{
   /*font-size: 20px;*/
   color: #0b0b0b;
   font-weight: bold;
-  line-height: 20px;
-  margin-top:5px;
+  line-height: 20%;
+  margin-top:1%;
 }
 .price-label{
-  margin-top:5px;
-  padding-bottom: 5px;
-  height: 25px;
+  margin-top:4%;
+  padding-bottom: 15%;
+  height: 20%;
 }
 .price-label span {
   display: block;
@@ -8471,7 +8471,7 @@ a > img.fh5co-align-center {
   margin-bottom: 35px;
 }
 .block{
-  margin: 0 0 15px;
+  margin: 0 0 15%;
 }
 .h5[product-detail]{
   padding-top: 10px;
@@ -8480,9 +8480,9 @@ a > img.fh5co-align-center {
   font-family: "Times New Roman", "Microsoft YaHei", Times, serif, simhei;
   color: #212121;
   border-bottom: 1px solid black;
-  margin: 10px 0 10px;
+  margin: 2% 0 2%;
   display: block;
-  height: 35px;
+  height: 30%;
 }
 .detail-headline{
   /*font-size: 13px;*/
@@ -8490,17 +8490,17 @@ a > img.fh5co-align-center {
   font-family: "Times New Roman", "Microsoft YaHei", Times, serif, simhei;
   color: #212121;
   border-bottom: 1px solid black;
-  margin: 5px 0 5px;
+  margin: 2% 0 2%;
   display: block;
-  height: 25px;
+  height: 20%;
 }
 .h3{
   font-size: 4px;
 }
-.p{
-  margin: 0 0 ;
-  margin-bottom: 0;
-  line-height: 60%;
+p{
+  margin: 1% 0 ;
+  margin-bottom: 1%;
+  line-height: 130%;
   padding: 0 0 0 0;
 }
 
@@ -8509,6 +8509,9 @@ a > img.fh5co-align-center {
 }
 .image-index-dark:hover{
   opacity: .8;
+}
+.product-name-detail{
+  height:30%
 }
 @media all and (min-width: 50px)   {  body  { font-size:0.1em;  } }
 @media all and (min-width: 100px)  {  body  { font-size:0.2em;  } }
