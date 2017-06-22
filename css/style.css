@@ -8323,6 +8323,15 @@ a > img.fh5co-align-center {
   margin-bottom:20px;
   padding:auto;
 }
+.detail-pic-1{
+    float: left;
+    width: 49.25%;
+    margin-right:1.5%;
+}
+.detail-pic-2{
+    float: left;
+    width: 49.25%;
+}
 .index-prod-name{
     padding: 2px;
     margin-top:15px;
@@ -8489,13 +8498,12 @@ a > img.fh5co-align-center {
   font-size: 4px;
 }
 .p{
-  margin: 0 0 10px;
-  margin-bottom: 1.5em;
+  margin: 0 0 ;
+  margin-bottom: 0;
+  line-height: 60%;
+  padding: 0 0 0 0;
+}
 
-}
-.product-name-detail{
-  font-size: 14px;
-}
 .image-index:hover{
   opacity: .6;
 }
